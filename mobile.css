@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media  (max-width: 500px) {
+
+    body {
+        font-family: RocketSans, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    nav a {
+        display: none;
+    }
+ 
+    nav {
+     position: relative;
+    }
+ 
+    #logo {
+       display: flex;
+    }
+ 
+    nav img {
+       margin: 0;
+       width: 20rem;
+    }
+
+    .fa-bars {
+       display: flex;
+       font-size: 2rem;
+       position: absolute;
+       right: 5rem;
+       top: 5.5rem;
+    }
+ 
+    #features {
+     display: none;
+    }
+
+    .hero {
+        margin-left: 0;
+    }
+
+    .hero img {
+       width: 32rem;
+    }
+
+    .inside {
+        width: 25rem;
+        top: 41rem;
+        left: 5rem;
+    }
+    .inside h4 {
+        font-size: 1.5rem;
+    }
+
+    .inside h2 {
+        font-size: 2rem;
+    }
+
+    .hero2 {
+        left: 12rem;      
+    }
+
+    .hero2 #empty {
+        width: 30rem;
+    }
+
+    .hero2 p {
+        font-size: 1.2rem;
+    }
+
+    .hero2 .fa-chevron-right {
+        display: none;
+    }
+
+    #recom {
+        padding-left: 12rem;
+    }
+
+    .one {
+        margin-left: -2rem;
+    }
+
+    .two {
+        margin-left: -2rem;
+    }
+
+    .three {
+        margin-left: -2rem;
+    }
+
+    #using {
+        padding-left: 12rem;
+        font-size: 3rem;
+    }
+
+    .four {
+        margin-left: 8rem;
+    }
+
+    .five {
+        margin-left: 8rem;
+    }
+
+    .six {
+        margin-left: 8rem;
+    }
+
+    #recently {
+        margin-top: 1rem;
+        padding-left: 12rem;
+       }
+    
+       .third h5 {
+         padding-left: 12rem;
+       }
+
+       .seven {
+        margin-left: 8rem;
+       }
+
+       .eight {
+        margin-left: 8rem;
+       }
+
+       .nine {
+        margin-left: 8rem;
+       }
+
+       .pagination {
+        margin-left: 4rem;
+       }
+
+       .flexbox3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12rem;
+       }
+
+       .sub p {
+         font-size: 1.5rem;
+       }
+
+       .last{
+          display: none;
+       }
+
+       
+} 

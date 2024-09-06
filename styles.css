@@ -1,0 +1,945 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+    font-family: RocketSans, Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+nav li a {
+    font-size: 1.7rem;
+    margin: 2.5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+}
+
+ nav .fa-bars {
+    display: none;
+}
+
+#spot {
+    border-right: 2px solid rgb(199, 196, 196);
+}
+
+#features {
+  font-size: 1.5rem;
+  font-family: serif;
+  font-weight: 500;
+  margin-right: 2.5rem;
+}
+
+.fa-chevron-down {
+   margin-left: 1rem;
+   font-weight: bold;
+}
+
+nav img {
+    margin-right: 10rem;
+    margin-left: 5rem;
+    width: 20rem;
+    padding-top: 0.5rem;
+}
+
+#get {
+    border: 1px solid #000000;
+    border-radius: 7px;
+    padding: 1.5rem 2rem;
+    margin-left: 3rem;
+}
+
+#get:hover {
+    background-color: rgb(241, 238, 238);
+    color: #000000;
+}
+
+nav a:hover {
+   color: brown;
+   border-bottom: 2px solid brown;
+   padding-bottom: 0.2rem;
+}
+
+#logo:hover {
+    border-bottom: none;
+}
+
+nav {
+    position: fixed;
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    height: 150vh;
+}
+
+.hero {
+    padding-top: 10rem;
+}
+
+.hero h1 {
+    font-size: 1.7rem;
+    font-weight: 100;
+    font-family: serif;
+}
+
+.hero h3 {
+    font-size: 4rem;
+    padding: 3rem 0;
+}
+
+.hero img {
+    width: 45rem;
+    height: 45rem;
+    border-radius: 1.7rem;
+    border: 1px solid black;
+    position: relative;
+}
+
+.hero img:hover {
+    border-top: 2px solid brown;
+    border-left: 2px solid brown;
+    border-right: 2px solid brown;
+    border-bottom: 2px solid blueviolet;
+}
+
+.inside {
+    background-color: white;
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    top: 46rem;
+    left: 8rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.hero a {
+    color: black;
+    text-decoration: none;
+}
+
+#lay {
+    position: absolute;
+    opacity: 0.1;
+    background-color: black;
+    width: 100%;
+    height: 20rem;
+    left: 0;
+    top: 0;
+    border-radius: 1rem;
+}
+
+.hero h4 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    padding-top: 0.5rem;
+}
+
+#more {
+    color: black;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.hero2 a {
+    color: rgb(94, 92, 92);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.hero2 p {
+  padding-top: 0.3rem;
+}
+
+.hero2 h4 {
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.hero2 h4:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+.fa-chevron-right {
+    color: black;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+#empty {
+    width: 57rem;
+    border-bottom: 2px solid gray;
+    color: grey;
+    padding-top: 2.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+.hero2 {
+    position: absolute;
+    right: 15rem;
+    top: 20rem;
+}
+
+.hero {
+    position: absolute;
+    left: 10rem;
+}
+
+.first {
+    height: 100vh;
+}
+
+#recom {
+   font-size: 4rem;
+   font-weight: 300;
+   padding: 4rem 4rem;
+}
+
+.one img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.one a {
+    color: black;
+    text-decoration: none;
+}
+
+.one {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem;
+}
+
+.one h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.one h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.one h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.one p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+#shift {
+    padding-top: 2rem;
+}
+
+.one:hover {
+    border: 2px solid black;
+    background-color: rgb(250, 247, 247);
+}
+
+.two img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.two a {
+    color: black;
+    text-decoration: none;
+}
+
+.two h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.two {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.two h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.two h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.two p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;   
+}
+
+.two:hover {
+    border: 2px solid black;
+    background-color: rgb(250, 247, 247);
+}
+
+.three img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.three a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.three h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.three h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.three h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.three p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.three {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+
+}
+
+.three:hover {
+    border: 2px solid black;
+    background-color: rgb(250, 247, 247);
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second {
+    height: 100vh;
+}
+
+#using {
+    font-size: 4rem;
+    font-weight: 300;
+    padding: 4rem 4rem;
+}
+
+.four img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.four {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.four h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.four h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.four h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.four p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.four a {
+    color: black;
+    text-decoration: none;
+}
+
+.four:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+.five img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.five {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.five h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.five h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.five h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.five p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.five a {
+    color: black;
+    text-decoration: none;
+}
+
+.five:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+.six img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.six {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.six h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.six h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.six h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.six p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.six a {
+    color: black;
+    text-decoration: none;
+}
+
+.six:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.third {
+    height: 120vh;
+}
+
+#recently {
+    font-size: 4rem;
+    font-weight: 300;
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.third h5 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 2rem 4rem;
+}
+
+.seven img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.seven {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.seven h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.seven h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.seven h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.seven p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.seven a {
+    color: black;
+    text-decoration: none;
+}
+
+.seven:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+.eight img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.eight {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.eight h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.eight h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.eight h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.eight p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.eight a {
+    color: black;
+    text-decoration: none;
+}
+
+.eight:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+.nine img {
+    width: 37.8rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.nine {
+    border: 1px solid black;
+    width: 38rem;
+    height: 48rem;
+    border-radius: 1rem; 
+}
+
+.nine h4 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-left: 2rem;
+}
+
+.nine h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: serif;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nine h2 {
+    text-transform: capitalize;
+    padding-left: 2rem;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+
+.nine p {
+    font-size: 1.7rem;
+    color: rgb(109, 106, 106);
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
+
+.nine a {
+    color: black;
+    text-decoration: none;
+}
+
+.nine:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+.flexbox2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.pagination a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    margin: 0 0.5rem;
+}
+
+.pagination a:hover {
+    background-color: rgb(224, 223, 223);
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+}
+
+.fa-chevron-left {
+    color: grey;
+    opacity: 0.8;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.pagination span {
+    margin: 0 1rem;
+}
+
+.pagination .fa-chevron-right {
+    padding: 0.2rem 0.5rem;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#diff {
+    background-color: #000000;
+    color: white;
+    border-radius: 50%;
+    padding: 0.7rem 1.1rem;
+}
+
+#diff:hover {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+footer {
+    height: 100vh;
+}
+
+.sub h3 {
+    font-size: 4rem;
+    color: rgba(165, 42, 42, 0.829);
+    padding: 1rem 8rem;
+}
+
+.sub p {
+    font-size: 2rem;
+    color: gray;
+    font-weight: 300;
+    padding: 0.1rem 8rem;
+}
+
+.intro-one h4 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.intro-one a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.intro-one a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+.intro-one p {
+    padding: 1rem 0;
+}
+
+.intro-two h4 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.intro-two a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.intro-two a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+.intro-two p {
+    padding: 1rem 0;
+}
+
+.intro-three h4 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.intro-three a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.intro-three a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+.intro-three p {
+    padding: 1rem 0;
+}
+
+.intro-four p {
+    color: gray;
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+}
+
+.flexbox3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.last a {
+    color: gray;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.1rem;
+    margin: 0 1rem;
+}
+
+.last {
+    margin: 7rem 7rem;
+}
