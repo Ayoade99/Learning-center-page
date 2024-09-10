@@ -31,7 +31,7 @@ html {
        width: 20rem;
     }
 
-    .fa-bars {
+    nav .fa-bars {
        display: flex;
        font-size: 2rem;
        position: absolute;
